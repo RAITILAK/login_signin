@@ -1,257 +1,4 @@
-/* @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap");
 
-body {
-  background-image: url("./Assests/edited.jpg");
-  height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  font-family: Arial, sans-serif;
-
-  overflow-x: hidden;
-}
-.quote {
-  justify-content: right;
-  color: #dc3545;
-}
-
-.container {
-  width: 22%;
-  margin-top: 13%;
-  margin-left: 4%;
-  height: 50%;
-
-  padding: 0.7%;
-  background: transparent;
-  border-radius: 3%;
-  box-shadow: 0 0 6px rgba(3, 3, 3);
-  color: rgb(4, 7, 10);
-  backdrop-filter: blur(12px);
-  overflow: hidden;
-}
-
-.container1 {
-  width: 22%;
-  height: 34%;
-
-  margin-top: 20%;
-
-  margin-left: 4%;
-
-  padding: 0.7%;
-  background: transparent;
-  border-radius: 3%;
-  box-shadow: 0 0 6px rgba(3, 3, 3);
-  color: rgb(4, 7, 10);
-  backdrop-filter: blur(12px);
-  overflow: hidden;
-}
-
-.signuplogin {
-  font-size: 50px;
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 5px;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 900;
-}
-
-.form-group {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  padding: 1.7%;
-  position: relative;
-}
-
-.form-group1 {
-  display: flex;
-  align-items: center;
-}
-
-.form-group .icon {
-  position: absolute;
-  right: 32px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 16px;
-}
-
-.form-group1 .icon {
-  position: absolute;
-  right: 32px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 16px;
-}
-
-.form-group input,
-.form-group select {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid white;
-  border-radius: 20px;
-  box-sizing: border-box;
-  background: transparent;
-  outline-color: #7ab0d9;
-}
-
-.form-group1 input,
-.form-group1 select {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid white;
-  border-radius: 20px;
-  box-sizing: border-box;
-  background: transparent;
-  outline-color: #7ab0d9;
-}
-::placeholder {
-  color: rgb(48, 43, 43);
-  opacity: 1;
-  font-family: "DM Sans", sans-serif;
-}
-
-.btn-primary {
-  width: 100%;
-
-  padding-left: 1.2%;
-
-  height: 3.5vh;
-  border: none;
-  border-radius: 20px;
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  font-weight: 700;
-}
-.navigation {
-  font-family: "DM Sans", sans-serif;
-  text-align: center;
-  margin-right: 0px;
-  font-weight: 500;
-  margin-top: 20px;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
-}
-
-.link-text {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.link-text a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-.link-text a:hover {
-  text-decoration: underline;
-}
-
-.text-danger {
-  color: #dc3545;
-}
-
-.anchor {
-  color: black;
-} */
-
-/* Media query for small devices like mobiles */
-
-/* @media only screen and (max-width: 600px) {
-  .container,
-  .container1 {
-    width: 90%;
-    margin-top: 48%;
-    margin-left: 5%;
-  }
-
-  .form-group .icon {
-    position: absolute;
-    right: 32px;
-    top: 59%;
-    transform: translateY(-50%);
-    font-size: 16px;
-  }
-
-  .form-group1 .icon {
-    position: absolute;
-    right: 32px;
-    top: 38%;
-    transform: translateY(-50%);
-    font-size: 16px;
-  }
-} */
-/* Media query for medium devices like tablets */
-/* 
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  .container1 {
-    width: 80%;
-
-    margin-top: 42%;
-    margin-left: 10%;
-  }
-  .container {
-    width: 80%;
-
-    margin-top: 25%;
-    margin-left: 10%;
-  }
-  .form-group .icon {
-    position: absolute;
-    right: 32px;
-    top: 59%;
-    transform: translateY(-50%);
-    font-size: 16px;
-  }
-
-  .form-group1 .icon {
-    position: absolute;
-    right: 32px;
-    top: 38%;
-    transform: translateY(-50%);
-    font-size: 16px;
-  }
-}
-
-@media only screen and (min-width: 1025px) {
-  .container {
-    width: 22%;
-    margin-top: 12%;
-
-    margin-left: 4%;
-    height: 50%;
-    padding: 0.7%;
-    background: transparent;
-    border-radius: 3%;
-    box-shadow: 0 0 6px rgba(3, 3, 3);
-    color: rgb(4, 7, 10);
-    backdrop-filter: blur(12px);
-    overflow: hidden;
-  }
-
-  .container1 {
-    width: 22%;
-    margin-top: 13%;
-    margin-left: 4%;
-    height: 50%;
-    padding: 0.7%;
-    background: transparent;
-    border-radius: 3%;
-    box-shadow: 0 0 6px rgba(3, 3, 3);
-    color: rgb(4, 7, 10);
-    backdrop-filter: blur(12px);
-    overflow: hidden;
-  }
-} */
-
-/* /--------------///////////////////----------------------------/////////////// */
 
 /*
 * Prefixed by https://autoprefixer.github.io
@@ -274,12 +21,6 @@ body {
 
   overflow-x: hidden;
 }
-/* .quote {
-  -webkit-box-pack: right;
-  -ms-flex-pack: right;
-  justify-content: right;
-  color: #dc3545;
-} */
 
 .container {
   width: 22%;
@@ -421,8 +162,6 @@ body {
 .btn-primary {
   width: 94%;
   margin-left: 10px;
-  /* margin-right: 122px; */
-  /* padding-left: 1.2%; */
   margin-top: 14px;
   height: 35px;
   border: none;
@@ -498,31 +237,7 @@ body {
     margin-top: 48%;
     margin-left: 5%;
   }
-  /* .form-group .icon1 {
-    margin-right: 2%;
-  }
 
-  .form-group .icon2 {
-  } */
-  /* .form-group .icon {
-    position: absolute;
-    right: 32px;
-    top: 59%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 16px;
-  }
-
-  .form-group1 .icon {
-    position: absolute;
-    right: 32px;
-    top: 38%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 16px;
-  } */
 }
 /* Media query for medium devices like tablets */
 
@@ -551,25 +266,7 @@ body {
   .btn-primary1 {
     width: 97%;
   }
-  /* .form-group .icon {
-    position: absolute;
-    right: 32px;
-    top: 59%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 16px;
-  }
 
-  .form-group1 .icon {
-    position: absolute;
-    right: 32px;
-    top: 38%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    font-size: 16px;
-  } */
 }
 
 @media only screen and (min-width: 1025px) {
@@ -589,40 +286,7 @@ body {
     backdrop-filter: blur(12px);
     overflow: hidden;
   }
-  /* .btn-primary {
-    width: 97%;
-    margin-left: 6px;
  
-    padding-left: 1.2%;
-    margin-top: 27px;
-    height: 3.5vh;
-    border: none;
-    border-radius: 20px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    -webkit-transition: background-color 0.3s ease;
-    -o-transition: background-color 0.3s ease;
-    transition: background-color 0.3s ease;
-    font-weight: 700;
-  }
-  .btn-primary1 {
-    width: 97%;
-    margin-left: 6px;
-
-    padding-left: 1.2%;
-    margin-top: 15px;
-    height: 3.5vh;
-    border: none;
-    border-radius: 20px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    -webkit-transition: background-color 0.3s ease;
-    -o-transition: background-color 0.3s ease;
-    transition: background-color 0.3s ease;
-    font-weight: 700;
-  } */
 
   .container1 {
     width: 22%;
